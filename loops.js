@@ -15,6 +15,9 @@ function whileLoop(number) {
   return 'done';
 }
 function doWhileLoop(array) {
+  function incrementVariable() {
+    i = i + 1;
+  }
   do {
     array.pop();
     incrementVariable();
